@@ -47,7 +47,7 @@ li {
     font-size: 16px;
     text-align: center;
 }
-/* .flex */ img { 
+.flex img { 
     width: 40%;
     padding: 20px;
     background: #123;
@@ -131,6 +131,32 @@ textarea {
  }
  .footer img {
      width: 30px;
+ }
+ @media (max-width: 768px) {
+     h1 {
+         font-size: 32px;
+     }
+     .datos-personales h2 {
+         font-size: 24px;
+     }
+     .flex {
+         flex-direction: column;
+     }
+     .datos-personales {
+         width: 100%;
+     }
+     .flex img{
+         width: 100%;
+     }
+     .informacion-personal h2 {
+         font-size: 24px;
+     }
+     .formulario {
+         width: 90%;
+     }
+     legend {
+         font-size: 24px;
+     }
  }
  
 
