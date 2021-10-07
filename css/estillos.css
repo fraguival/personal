@@ -90,7 +90,10 @@ input, textarea {
     display: block;
     margin-bottom: 10px;
     border: 1px solid #fff;width: 100%;
-    background: #234;
+    background: #020;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
     padding: 10px;
     border-radius: 8px;
 }
@@ -98,8 +101,10 @@ input::placeholder,
 textarea::placeholder {
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 textarea {
+    
     max-width: 100%;
     min-width: 100%;
     min-height: 120px;
@@ -118,11 +123,11 @@ textarea {
     margin-top: 20px;
     margin-bottom: 10px;
     border: 3px solid #fff;
-    border-radius: 4px;
+    border-radius: 8px;
 }
   .footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     background: #234;
